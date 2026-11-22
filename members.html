@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <!-- BOOTSTRAP -->    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Showcase 2026 Club Members</title>
+    
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div class="container-fluid">
+                    <a class="navbar-brand">Student Showcase 2026</a>
+               </div>
+               <li><a href="index.html" style="color: white;">Home Page</a></li>
+               <li><a href="checker.html" style="color: white;">✪ Element Checker</a></li>
+               <li><a href="members.html" style="color: white;">𖨆𖨆 School Club Members</a></li>
+               <li><a href="creator.html" style="color: white;">🛈 Meet the Creator</a></li>
+
+        </nav>
+
+        
+        <div id="clubpreface">
+            <form>
+
+            <h2>Cosmic Writers Guild</h2>
+            <h3>Add new club member:</h3>
+
+            <label>First Name:</label>
+            <input type="text" id="first" placeholder="Enter your first name"><br>
+            
+            <label>Last Name:</label>
+            <input type="text" id="surname" placeholder="Enter your last name"><br>
+            <input type="button" py-click="member_checker" value="Submit">
+            </form>
+        </div>
+
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+
+    <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+	Project - 2nd Quarter Student Showcase 2026 by Jaena B. Ambata
+    </footer>
+    
+</body>
+</html>

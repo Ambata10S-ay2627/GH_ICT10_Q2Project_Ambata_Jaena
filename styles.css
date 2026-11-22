@@ -1,0 +1,109 @@
+
+body{
+    background-image: url(https://i.pinimg.com/736x/e1/3e/46/e13e460f400b96b79d85d4b6b6fb9c9c.jpg);
+}
+
+/* SW#1: Nickname Atlas */
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: burlywood;
+}
+
+h5{
+    color: teal;
+}
+
+#atlas{
+    background-color: lightgoldenrodyellow;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+#form{
+    background-image: url(https://i.pinimg.com/736x/5c/0f/d6/5c0fd6d7194e655b915ba7a0e1fe4835.jpg);
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+body{
+    background-color:	#eddecb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* Participation Activity 2: School Club Members */
+
+#clubpreface{
+    background-color: lightgoldenrodyellow;
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+/* Skills Test: Element Checker */
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+h2{
+    color: darkslategray;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h5{
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#find{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#final{
+    background-color: lightgreen;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+/* Meet the Creator: Project */
+
+#profile{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    width: 700px;
+    height:400px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+h5{
+    text-align: center;
+}
